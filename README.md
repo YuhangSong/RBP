@@ -14,7 +14,7 @@ This is the PyTorch implementation of [Recurrent Back Propagation](https://arxiv
 To set up experiments, we need to build our customized operators by running the following scripts:
 ```
 ./setup.sh
-``` 
+```
 
 ## Dependencies
 Python 3, PyTorch(0.4.0)
@@ -24,7 +24,7 @@ Python 3, PyTorch(0.4.0)
 * To run experiments ```X``` where ```X``` is one of {```hopfield```, ```cora```, ```pubmed```, ```hypergrad```}:
 
   ```python run_exp.py -c config/X.yaml```
-  
+
 
 **Notes**:
 * Most hyperparameters in the configuration yaml file are self-explanatory.
