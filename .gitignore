@@ -1,0 +1,3 @@
+*.pyc
+exp/
+operators/_ext/
