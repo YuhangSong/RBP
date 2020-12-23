@@ -7,7 +7,7 @@ gpus: [0]
 seed: 1234
 dataset:
   name: MNIST
-  path: data/mnist
+  path: ../../../data/MNIST
 model:
   name: HypergradNet
   grad_method: Neumann_RBP
@@ -20,7 +20,7 @@ model:
   num_sgd_step: 100
   batch_size: 200
   mlp_hidden: [784, 50, 50, 50, 10]
-train:  
+train:
   meta_optimizer: Adam
   meta_lr: 0.05
   max_meta_iter: 100

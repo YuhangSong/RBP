@@ -6,8 +6,8 @@ use_gpu: true
 gpus: [0]
 seed: 1234
 dataset:
-  name: Cora  
-  path: data/citation
+  name: cora
+  path: ../../../data/citation
   rand_split: true
   train_ratio: 0.01
   label_size: 7

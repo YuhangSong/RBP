@@ -6,10 +6,10 @@ use_gpu: true
 gpus: [0]
 seed: 1234
 dataset:
-  name: Pubmed
-  path: data/citation
+  name: pubmed
+  path: ../../../data/citation
   rand_split: true
-  train_ratio: 0.01  
+  train_ratio: 0.01
   label_size: 3
 model:
   name: GNN
@@ -40,7 +40,7 @@ train:
   valid_epoch: 20
   lr: 1.0e-3
   wd: 5.0e-4
-  momentum: 0.9  
+  momentum: 0.9
   shuffle: true
   is_resume: false
   resume_model: None

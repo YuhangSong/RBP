@@ -7,7 +7,7 @@ gpus: [0]
 seed: 1234
 dataset:
   name: MNIST
-  path: data/mnist
+  path: ../../../data/MNIST
   num_imgs: 10
   corrupt_level: 0.5
 model:
